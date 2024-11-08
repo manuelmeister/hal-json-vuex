@@ -1,4 +1,5 @@
-import normalize from 'hal-json-normalizer'
+// eslint-disable-next-line import/no-named-default
+import { default as normalize } from 'hal-json-normalizer'
 import { parseTemplate } from 'url-template'
 import normalizeEntityUri from './normalizeEntityUri'
 import ResourceCreator from './ResourceCreator'
